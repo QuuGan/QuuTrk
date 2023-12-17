@@ -1,5 +1,5 @@
 # QuuTrack
-QuuTrack is a single target tracking algorithm that is written in Python and powered by the PyTorch deep learning framework, and the project also includes a Python toolkit for evaluating trackers.
+QuuTrack is a single object tracking (SOT) algorithm that is written in Python and powered by the PyTorch deep learning framework, and the project also includes a Python toolkit for evaluating trackers.
 Only the improved siammask project is currently supported.
 
 <div style="display: flex; justify-content: center;">
