@@ -25,7 +25,11 @@ Ensure that the device has sufficient memory in advance. Please refer to the rea
 
 ## Prepare the pre-training model
 Our experimental optimal weight file:
+link：https://pan.baidu.com/s/18cghwTinKE7lKLITFWQY2w 
+code：sqst 
 You can also refer to the SiamMask original author's weight file：
+link：https://pan.baidu.com/s/19YWqnaoa35ARa2rHjHkZPg 
+code：0qqt 
 
 ## The first stage of training:
 
