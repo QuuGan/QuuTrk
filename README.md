@@ -16,7 +16,7 @@ Other dependencies can be installed using the following command
 pip install -r requirements.txt
 ```
 
-More detailed installation guide can refer to https://github.com/foolwood/SiamMask
+More detailed installation guide can refer to [SiamMask](https://github.com/foolwood/SiamMask)
 
 # Training
 ## Prepare the training data set
@@ -59,3 +59,11 @@ bash test_all.sh -s 1 -e 20 -d VOT2018 -g 1
 You will see:
 ![Alt Text](demo/2.png)
 ![Alt Text](demo/3.png)
+
+# Reference 
+
+[Fast Online Object Tracking and Segmentation: A Unifying Approach](https://arxiv.org/pdf/2207.02088.pdf)
+
+# acknowledgement
+
+Our code is based on Dr. Wang Qiang's project siammask, and we would like to express our sincere thanks.
