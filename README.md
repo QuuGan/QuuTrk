@@ -16,7 +16,7 @@ Other dependencies can be installed using the following command
 pip install -r requirements.txt
 ```
 
-More detailed installation guide can refer to [SiamMask](https://github.com/foolwood/SiamMask)
+More detailed installation guide can refer to [SiamMask](https://github.com/foolwood/SiamMask).
 
 # Training
 ## Prepare the training data set
