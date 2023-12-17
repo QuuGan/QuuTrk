@@ -27,6 +27,7 @@ bash run.sh <best_base_model>
 bash run.sh checkpoint_e12.pth
 
 You will see:
+![Alt Text](demo/1.png)
 # Testing
 ## Test data set preparation
 This experimental code test.py is only tested on VOT2016, VOT2018 and VOT2019 datasets. If you want to test more datasets, please refer to pysot-tookit and download more test datasets according to the guidance (OTB100(OTB2015), UAV123, NFS, etc.). LaSOT, LaSOText, TrackingNet (Evaluation on Server), GOT-10k (Evaluation on Server)) and modify the corresponding code.
@@ -37,6 +38,5 @@ Go to the experiment directory such as：
 cd $SiamMask/experiments/siammask_sharp
 bash test_all.sh -s 1 -e 20 -d VOT2018 -g 1
 You will see:
-
-
-
+![Alt Text](demo/2.png)
+![Alt Text](demo/3.png)
