@@ -11,7 +11,11 @@ Only the improved siammask project is currently supported.
 Our experiments are based on Ubuntu18.04, NVIDIA GTX 3070 (8GB), cuda11.3, cudnn8.3.2, python3.8 and pytorch1.12.1. The environment is not strictly required, you can choose according to your actual situation.
 
 Other dependencies can be installed using the following command
+
+''' 
 pip install -r requirements.txt
+'''
+
 More detailed installation guide can refer to https://github.com/foolwood/SiamMask
 
 # Training
@@ -23,13 +27,19 @@ Our experimental optimal weight file:
 You can also refer to the SiamMask original author's weight file：
 
 ## The first stage of training:
+
+'''
 cd $SiamMask/experiments/siammask_base/
 bash run.sh
+'''
 
 ## Find the optimal weight file from the results of the first stage and conduct the second stage training:
+
+'''
 cd $SiamMask/experiments/siammask_sharp
 bash run.sh <best_base_model>
 bash run.sh checkpoint_e12.pth
+'''
 
 You will see:
 ![Alt Text](demo/1.png)
@@ -40,8 +50,12 @@ This experimental code test.py is only tested on VOT2016, VOT2018 and VOT2019 da
 ## testing
 For example, specifying the VOT2018 dataset for testing (test_all includes both testing and evaluation procedures)
 Go to the experiment directory such as：
+
+'''
 cd $SiamMask/experiments/siammask_sharp
 bash test_all.sh -s 1 -e 20 -d VOT2018 -g 1
+'''
+
 You will see:
 ![Alt Text](demo/2.png)
 ![Alt Text](demo/3.png)
