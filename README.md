@@ -3,14 +3,14 @@ QuuTrack is a single object tracking (SOT) algorithm that is written in Python a
 Only the improved siammask project is currently supported.
 
 <div style="display: flex; justify-content: center;">
-  <img src="demo/car.gif" alt="Alt Text">
+  <img src="demo/car.gif" alt="Demo">
 </div>
 
 
 # Environment Configuration
 Our experiments are based on Ubuntu18.04, NVIDIA GTX 3070 (8GB), cuda11.3, cudnn8.3.2, python3.8 and pytorch1.12.1. The environment is not strictly required, you can choose according to your actual situation.
 
-Other dependencies can be installed using the following command
+Other dependencies can be installed using the following command:
 
 ```
 pip install -r requirements.txt
@@ -20,7 +20,8 @@ More detailed installation guide can refer to [SiamMask](https://github.com/fool
 
 # Training
 ## Prepare the training data set
-Four datasets were used for training, namely, youtub-VOS (13G), ILSVRC2015-VID (65G), ILSVRC2015_DET (approx. 50G) and COCO (51G). Ensure that the device has sufficient memory in advance. Please refer to the readme file under each data set file for download methods and data processing.
+Four datasets were used for training, namely, youtub-VOS (13GB), ILSVRC2015-VID (65GB), ILSVRC2015_DET (about 50GB) and COCO (51GB). 
+Ensure that the device has sufficient memory in advance. Please refer to the readme file under each data set file for download methods and data processing.
 
 ## Prepare the pre-training model
 Our experimental optimal weight file:
@@ -58,12 +59,21 @@ bash test_all.sh -s 1 -e 20 -d VOT2018 -g 1
 
 You will see:
 ![Alt Text](demo/2.png)
+
 ![Alt Text](demo/3.png)
 
 # Reference 
 
-[Fast Online Object Tracking and Segmentation: A Unifying Approach](https://arxiv.org/pdf/2207.02088.pdf)
+[Fast Online Object Tracking and Segmentation: A Unifying Approach](https://arxiv.org/pdf/2207.02088.pdf).
+
 
 # acknowledgement
 
 Our code is based on Dr. Wang Qiang's project siammask, and we would like to express our sincere thanks.
+
+@inproceedings{wang2019fast,
+    title={Fast online object tracking and segmentation: A unifying approach},
+    author={Wang, Qiang and Zhang, Li and Bertinetto, Luca and Hu, Weiming and Torr, Philip HS},
+    booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+    year={2019}
+}
