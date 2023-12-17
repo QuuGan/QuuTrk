@@ -1,7 +1,10 @@
 # QuuTrack
 QuuTrack is a single target tracking algorithm framework that is written in Python and powered by the PyTorch deep learning framework, and the project also includes a Python toolkit for evaluating trackers.
 Only the improved siammask project is currently supported.
-
+![Alt Text](demo/car.gif)
+<div style="display: flex; justify-content: center;">
+  <img src="demo/car.gif" alt="Alt Text">
+</div>
 # Environment Configuration
 Our experiments are based on Ubuntu18.04, NVIDIA GTX 3070 (8GB), cuda11.3, cudnn8.3.2, python3.8 and pytorch1.12.1. The environment is not strictly required, you can choose according to your actual situation.
 
