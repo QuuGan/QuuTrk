@@ -20,7 +20,7 @@ More detailed installation guide can refer to [SiamMask](https://github.com/fool
 
 # Training
 ## Prepare the training data set
-Four datasets were used for training, namely, youtub-VOS (13GB), ILSVRC2015-VID (65GB), ILSVRC2015_DET (about 50GB) and COCO (51GB). 
+Four datasets were used for training: youtub-VOS (13GB), ILSVRC2015-VID (65GB), ILSVRC2015_DET (about 50GB) and COCO (51GB). 
 Ensure that the device has sufficient memory in advance. Please refer to the readme file under each data set file for download methods and data processing.
 
 ## Prepare the pre-training model
